@@ -309,7 +309,9 @@ header {
     bottom: 0.8rem;
     right: 0.8rem;
 }
-
+.movie-box .hidden {
+    display: none;
+}
 /* Swiper Btns */
 .swiper-btn {
     display: flex;

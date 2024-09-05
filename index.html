@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMP</title>
+    <!-- Link To CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper CSS-->
+     <link rel="stylesheet" href="swiper-bundle.min.css">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <!-- Nav -->
+         <div class="nav container">
+            <!-- Logo -->
+             <a href="index.html" class="logo">
+                MOVIE<span>MP</span>
+             </a>
+             <!-- Search Box -->
+              <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search phim">
+                <button type="button" id="search-button"><i class='bx bx-search'></i></button>
+              </div>
+              <!-- User -->
+              <a href="#" class="user">
+                <img src="img/user.jpg" alt="" class="user-img">
+              </a>
+              <!-- NavBar -->
+              <div class="navbar">
+                <a href="#home" class="nav-link nav-active">
+                    <i class='bx bx-home' ></i>
+                    <span class="nav-link-title">Nhà</span>
+                </a>
+                <a href="#popular" class="nav-link">
+                    <i class='bx bxs-hot' ></i>
+                    <span class="nav-link-title">Xu hướng</span>
+                </a>
+                <a href="#movies" class="nav-link">
+                    <i class='bx bx-compass' ></i>
+                    <span class="nav-link-title">Khám phá</span>
+                </a>
+                <a href="movies.html" class="nav-link">
+                    <i class='bx bx-tv' ></i>
+                    <span class="nav-link-title">Phim</span>
+                </a>
+              </div>
+         </div>
+     </header>
+     <!-- Home -->
+      <section class="home container" id="home">
+        <!-- Home Image -->
+         <img src="img/home-background.jpg" alt="" class="home-img">
+         <!-- Home text -->
+          <div class="home-text">
+            <h1 class="home-title">Godzilla x Kong: Đế chế mới</h1>
+            <p>Released March 29</p>
+            <a href="godzilla.html" class="watch-btn">
+              <i class='bx bx-right-arrow'></i>
+              <span>Watch the trailer</span>
+            </a>
+          </div>
+      </section>
+      <!-- Home End -->
+      <!-- Popular Section Start-->
+       <section class="popular container" id="popular">
+        <!-- heading -->
+         <div class="heading">
+          <h2 class="heading-title">Trending</h2>
+          <!-- Swiper Buttons -->
+           <div class="swiper-btn">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+           </div>
+         </div>
+         <!-- Content -->
+          <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+              <!-- Movies Box 1 -->
+              <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">Mai</h2>
+                    <span class="movie-type">Comedy/Romance</span>
+                    <a href="mai.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+               <!-- Movies Box 2 -->
+               <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-2.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">Kung Fu Panda 4</h2>
+                    <span class="movie-type">Comedy/Adventure</span>
+                    <a href="panda.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+               <!-- Movies Box 3 -->
+               <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-3.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">Deadpool và Wolverine</h2>
+                    <span class="movie-type">Action/Comedy</span>
+                    <a href="deadpool.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+               <!-- Movies Box 4 -->
+               <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-4.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">Lật mặt 7: Một điều ước</h2>
+                    <span class="movie-type">Drama</span>
+                    <a href="latmat7.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+               <!-- Movies Box 5 -->
+               <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-5.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">Kẻ trộm mặt trăng 4</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="despicable.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+               <!-- Movies Box 6 -->
+               <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">THÁM TỬ LỪNG DANH CONAN: NGÔI SAO 5 CÁNH 1 TRIỆU ĐÔ</h2>
+                    <span class="movie-type">Mystical/Anime</span>
+                    <a href="conan.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+               <!-- Movies Box 7 -->
+               <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-7.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">Nobita Và Bản Giao Hưởng Địa Cầu</h2>
+                    <span class="movie-type">Adventure/Music</span>
+                    <a href="doraemon.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+               <!-- Movies Box 8 -->
+               <div class="swiper-slide">
+                <div class="movie-box">
+                  <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                  <div class="box-text">
+                    <h2 class="movie-title">Dune: Hành tinh cát Phần hai</h2>
+                    <span class="movie-type">Adventure/Sci-Fi</span>
+                    <a href="dune.html" class="watch-btn play-btn">
+                      <i class='bx bx-right-arrow'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </section>
+      <!-- Popular Section End-->
+      <!-- Movies Section Start -->
+       <section class="movies container" id="movies">
+        <!-- heading -->
+        <div class="heading">
+          <h2 class="heading-title">Explore</h2>
+         </div>
+         <!-- Movies Content -->
+        <div class="movies-content">
+          <!-- Movies Box 1 -->
+          <div class="movie-box">
+            <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Avatar: Dòng chảy của nước</h2>
+              <span class="movie-type">Action/Adventure</span>
+              <a href="avatar.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+           <!-- Movies Box 2 -->
+           <div class="movie-box">
+            <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Harry Potter và Hòn đá Phù thủy</h2>
+              <span class="movie-type">Mytiscal</span>
+              <a href="harry.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+           <!-- Movies Box 3 -->
+           <div class="movie-box">
+            <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">SHIN CẬU BÉ BÚT CHÌ: NHẬT KÝ KHỦNG LONG CỦA CHÚNG MÌNH</h2>
+              <span class="movie-type">Adventure</span>
+              <a href="shin.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+           <!-- Movies Box 4 -->
+           <div class="movie-box">
+            <img src="img/movie-4.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Những mảnh ghép cảm xúc 2</h2>
+              <span class="movie-type">Comedy</span>
+              <a href="inside.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+           <!-- Movies Box 5 -->
+           <div class="movie-box">
+            <img src="img/movie-5.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Dự Án Mật: Thảm Họa Trên Cầu</h2>
+              <span class="movie-type">Action</span>
+              <a href="duan.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+           <!-- Movies Box 6 -->
+           <div class="movie-box">
+            <img src="img/movie-6.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Mật vụ ong</h2>
+              <span class="movie-type">Action</span>
+              <a href="ong.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+           <!-- Movies Box 7 -->
+           <div class="movie-box">
+            <img src="img/movie-7.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Madame Web</h2>
+              <span class="movie-type">Action/Sci-Fi</span>
+              <a href="madame.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+           <!-- Movies Box 8 -->
+           <div class="movie-box">
+            <img src="img/movie-8.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Garfield: Mèo béo siêu quậy</h2>
+              <span class="movie-type">Adventure/Comedy</span>
+              <a href="garfield.html" class="watch-btn play-btn">
+                <i class='bx bx-right-arrow'></i>
+              </a>
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- Movies Section End -->
+      <!-- Next Page -->
+       <div class="next-page">
+        <a href="#" class="next-btn">Next Page</a>
+       </div>
+      <!-- Copyright -->
+        <div class="copyright">
+          <p>&#169; MP ALL Right Resevered</p>
+        </div>
+      <script src="jquery-3.7.1.min.js"></script>
+    <!-- Link Swiper JS -->
+     <script src="swiper-bundle.min.js"></script>
+    <!-- Link to JS-->
+     <script src="generalFunction.js"></script>
+     <script src="main.js"></script>
+</body>
+</html>

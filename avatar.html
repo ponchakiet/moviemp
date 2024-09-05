@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar: Dòng chảy của nước</title>
+    <!-- Link To CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                MOVIE<span>MP</span>
+            </a>
+            <!-- Search Box -->
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search phim">
+                <i class='bx bx-search'></i>
+            </div>
+            <!-- User -->
+            <a href="#" class="user">
+                <img src="img/user.jpg" alt="" class="user-img">
+            </a>
+            <!-- NavBar -->
+            <div class="navbar">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-title">Nhà</span>
+                </a>
+                <a href="index.html#heading" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-link-title">Xu hướng</span>
+                </a>
+                <a href="index.html#movies" class="nav-link">
+                    <i class='bx bx-compass'></i>
+                    <span class="nav-link-title">Khám phá</span>
+                </a>
+                <a href="movies.html" class="nav-link">
+                    <i class='bx bx-tv'></i>
+                    <span class="nav-link-title">Phim</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- PLay Movie Container -->
+    <div class="play-container container">
+        <!-- PLay Image -->
+        <img src="avatar/img.jpg" alt="" class="play-img">
+        <!-- Play Text -->
+        <div class="play-text">
+            <h2>Avatar: Dòng chảy của nước</h2>
+            <!-- Ratings -->
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <!-- Tags -->
+            <div class="tags">
+                <span>Action</span>
+                <span>Adventure</span>
+                <span>4K</span>
+            </div>
+            <!-- Trailer Button -->
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow play-trailer'></i>
+                <span>Watch the trailer</span>
+            </a>
+            <div class="trailer-container">
+                <div class="trailer-box">
+                    <video id="mytrailer" src="avatar/trailer.mp4" controls></video>
+                    <i class='bx bx-x close-trailer'></i>
+                </div>
+            </div>
+        </div>
+        <!-- Play Btn -->
+        <i class='bx bx-right-arrow play-movie'></i>
+        <!-- Video Container -->
+        <div class="video-container">
+            <!-- Video-Box -->
+            <div class="video-box">
+                <video id="myvideo" src="avatar/trailer.mp4" controls></video>
+                <!-- Close Video Icon -->
+                <i class='bx bx-x close-video'></i>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div class="about-movie container">
+        <h2>Avatar: Dòng chảy của nước</h2>
+        <p>Câu chuyện của “Avatar: Dòng Chảy Của Nước” lấy bối cảnh 10 năm sau những sự kiện xảy ra ở phần đầu tiên. Phim kể câu chuyện về gia đình mới của Jake Sully (Sam Worthington thủ vai) cùng những rắc rối theo sau và bi kịch họ phải chịu đựng khi phe loài người xâm lược hành tinh Pandora.</p>
+        <!-- Movie Cast -->
+        <h2 class="cast-heading">Movie Cast</h2>
+        <div class="cast">
+            <div class="cast-box">
+                <img src="avatar/cast1.jpg" alt="" class="cast-img">
+                <span class="cast-title">Sam Worthington</span>
+            </div>
+            <div class="cast-box">
+                <img src="avatar/cast2.jpg" alt="" class="cast-img">
+                <span class="cast-title">Zoe Saldaña</span>
+            </div>
+            <div class="cast-box">
+                <img src="avatar/cast3.jpg" alt="" class="cast-img">
+                <span class="cast-title">Sigourney Weaver</span>
+            </div>
+            <div class="cast-box">
+                <img src="avatar/cast4.jpg" alt="" class="cast-img">
+                <span class="cast-title">Kate Winslet</span>
+            </div>
+            <div class="cast-box">
+                <img src="avatar/cast5.jpg" alt="" class="cast-img">
+                <span class="cast-title">Stephen Lang</span>
+            </div>
+        </div>
+    </div>
+    <!-- Download -->
+    <div class="download">
+        <h2 class="download-title">Download Movie</h2>
+        <div class="download-links">
+            <a href="avatar/trailer.mp4" download>480p</a>
+            <a href="avatar/trailer.mp4" download>720p</a>
+            <a href="avatar/trailer.mp4" download>1080p</a>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; MP ALL Right Resevered</p>
+    </div>
+    <!-- Link Swiper Files -->
+    <script src="swiper-bundle.min.js"></script>
+    <!-- Link to JS-->
+    <script src="main.js"></script>
+</body>
+
+</html>
